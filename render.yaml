@@ -1,7 +1,7 @@
 services:
-  - name: CRM
+  - name: my-node-app
     env: node
-    buildCommand: node index.js
-    startCommand: node index.js
+    buildCommand: npm install
+    startCommand: node src/index.js
     sourcePath: src
     healthCheckPath: /
