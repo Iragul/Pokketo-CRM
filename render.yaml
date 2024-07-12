@@ -1,7 +1,0 @@
-services:
-  - name: my-node-app
-    env: node
-    buildCommand: npm install
-    startCommand: node src/index.js
-    sourcePath: src
-    healthCheckPath: /
