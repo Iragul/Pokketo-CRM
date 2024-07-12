@@ -1,22 +1,23 @@
 {
-  "name": "my-node-app",
+  "name": "pokketo-crm",
   "version": "1.0.0",
-  "description": "A simple Node.js application deployed on Render",
-  "main": "src/index.js",  
+  "description": "Pokketo CRM Node.js application",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js", 
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "Your Name",
-  "license": "ISC",  
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.17.2",  
-    "mongoose": "^6.0.5"   
-
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "dotenv": "^16.0.0",
+    "body-parser": "^1.19.1"
+    // Add other dependencies as needed
   },
   "devDependencies": {},
   "engines": {
-    "node": ">=12.0.0"  
-}
+    "node": ">=12.0.0"
+  }
 }
